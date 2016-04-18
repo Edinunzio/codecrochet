@@ -80,3 +80,16 @@ spaces[2].dc(3)
 spaces[2].dc(3)
 spaces[2].ch(2)
 begin_stitch[2].sl(1)
+
+# Round Three:
+spaces_2 = get_spaces(round_2)
+begin_stitch = spaces_2[0].ch(3)  # Chain 3
+spaces_2[0].dc(2)  # 2 dc in same corner
+spaces_2[1].dc(3)  # 3 dc in non corner space
+
+# Next space is corner
+spaces_2[2].dc(3)
+spaces_2[2].ch(2)
+spaces_2[2].dc(3)
+
+# Repeat around the square
